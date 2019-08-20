@@ -1,0 +1,9 @@
+.aside {
+  &-list{
+    list-style-type: none;
+    &__item {
+      padding: 7px 0;
+      border-bottom: 1px solid $color-light-gray-2;
+    }
+  }
+}

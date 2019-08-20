@@ -1,0 +1,11 @@
+.link,
+link,
+link:focus,
+link:active{
+  color: $color-light-gray-1;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: $color-primary;
+}
