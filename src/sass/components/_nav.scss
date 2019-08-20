@@ -10,4 +10,15 @@
   background: rgba(0, 0, 0, 0.5);
 
   @include shadow;
+
+  .login {
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    border-bottom: 2px solid $color-primary;
+    transition: all .4s ease;
+
+    &:hover{
+    border: 2px solid $color-primary;
+    }
+  }
 }

@@ -12,13 +12,14 @@ body {
   font-family: "Dosis", sans-serif;
   font-size: 3rem;
   font-weight: bold;
-
-  .blue {
-    color: $color-primary;
-  }
+}
+.blue {
+  color: $color-primary;
 }
 
 .footer {
+  font-size: 80%;
+  text-align: center;
   color: $color-light-gray-1;
 }
 

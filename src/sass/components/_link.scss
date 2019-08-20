@@ -4,6 +4,7 @@ link:focus,
 link:active{
   color: $color-light-gray-1;
   text-decoration: none;
+  transition: all .2s ease;
 }
 
 .link:hover {
